@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Abid - Leef Dispensary and Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .card h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .card p {
+            margin: 10px 0;
+            color: #666;
+        }
+        .contact-info, .services, .social-media {
+            margin-top: 20px;
+        }
+        .contact-info p, .services p, .social-media p {
+            margin: 5px 0;
+            color: #333;
+        }
+        .social-media a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Hassan Abid</h1>
+        <p>Owner / CEO</p>
+        <p>Leef Dispensary and Coffee Shop</p>
+        <p>Compliant Distro</p>
+        <div class="contact-info">
+            <p>Phone: <a href="tel:+17868317642">786-831-7642</a></p>
+            <p>Email: <a href="mailto:hassawn@gmail.com">hassawn@gmail.com</a></p>
+            <p>Website: <a href="https://dispensarypompano.com" target="_blank">dispensarypompano.com</a></p>
+        </div>
+        <div class="services">
+            <h2>Our Services</h2>
+            <p>Retail</p>
+            <p>Wholesale Distribution</p>
+            <p>Manufacturing</p>
+            <p>Marketing Consulting</p>
+            <p>Co-Packing</p>
+            <p>Drop Shipping</p>
+        </div>
+        <div class="social-media">
+            <p>Instagram: <a href="https://www.instagram.com/thehazabi" target="_blank">@thehazabi</a></p>
+        </div>
+    </div>
+</body>
+</html>
